@@ -1,1 +1,23 @@
+.box {
+    background-color: blueviolet;
+    width: 120px;
+    height: 100px;
+    margin: 30px;
+}
 
+#rotate {
+    transform: rotate(90deg);
+}
+
+#scale {
+    transform: scale(.5);
+}
+
+#skew {
+    transform: skew(45deg);
+}
+
+#translate {
+    /* translate(X, Y) from original position */
+    transform: translate(40px, 30px);
+}
